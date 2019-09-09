@@ -1,0 +1,20 @@
+Warning (10268): Verilog HDL information at spi_master_v2.v(19): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at detect_CAN_v1.v(16): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at detect_CAN.v(16): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at SPI_ADC.v(14): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at uart_rx.v(20): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at uart_tx.v(21): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at calculate_speed.v(51): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at define_vectors_time.v(15): object "T1" differs only in case from object "t1" in the same scope
+Info (10281): Verilog HDL Declaration information at define_vectors_time.v(16): object "T2" differs only in case from object "t2" in the same scope
+Info (10281): Verilog HDL Declaration information at define_vectors_time.v(17): object "T0" differs only in case from object "t0" in the same scope
+Info (10281): Verilog HDL Declaration information at define_vector.v(4): object "T1" differs only in case from object "t1" in the same scope
+Info (10281): Verilog HDL Declaration information at define_vector.v(5): object "T2" differs only in case from object "t2" in the same scope
+Info (10281): Verilog HDL Declaration information at define_vector.v(6): object "T0" differs only in case from object "t0" in the same scope
+Warning (10268): Verilog HDL information at delay_clk_posedge.v(28): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at dead_time.v(14): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at adc.v(43): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Slave_spi_v1.v(10): object "DATAIN" differs only in case from object "datain" in the same scope
+Warning (10268): Verilog HDL information at Master_spi_v7_10ch.v(71): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Master_spi_v7_10ch.v(31): object "digitallFq" differs only in case from object "digitallfq" in the same scope
+Warning (10268): Verilog HDL information at Chn_filtr1.v(12): always construct contains both blocking and non-blocking assignments

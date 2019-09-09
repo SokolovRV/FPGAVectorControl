@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.808 ns
+From           : mod_bus_rx
+To             : SP270ModbusMasterRTU:inst13|uart_rx:inst42313|dataout[4]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.864 ns
+From           : SB-All-EthernetSPI:inst6|SB-ethernet:inst|spi_master_v2:inst1|sclk
+To             : eth_clk_2
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.464 ns
+From           : eth_miso_1
+To             : SB-All-EthernetSPI:inst4|SB-ethernet:inst|spi_master_v2:inst1|inputArray[14]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : -21.660 ns
+Required Time  : 40.00 MHz ( period = 25.000 ns )
+Actual Time    : 21.43 MHz ( period = 46.660 ns )
+From           : SP270ModbusMasterRTU:inst13|modbus_Rx_v7:ins2313t|i[0]
+To             : SP270ModbusMasterRTU:inst13|modbus_Rx_v7:ins2313t|Reg346[0]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 11876
+
+Type           : Clock Setup: 'pll0:inst3|altpll:altpll_component|_clk0'
+Slack          : -14.298 ns
+Required Time  : 20.00 MHz ( period = 50.000 ns )
+Actual Time    : 15.55 MHz ( period = 64.298 ns )
+From           : freq_generator:inst|freq[7]
+To             : freq_generator:inst|count[2]
+From Clock     : pll0:inst3|altpll:altpll_component|_clk0
+To Clock       : pll0:inst3|altpll:altpll_component|_clk0
+Failed Paths   : 528
+
+Type           : Clock Setup: 'pll0:inst3|altpll:altpll_component|_clk1'
+Slack          : -6.357 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : SB-All-EthernetSPI:inst6|detect_CAN:inst4|data7[0]
+To             : convert_encoder:inst46|data_out[15]
+From Clock     : clk
+To Clock       : pll0:inst3|altpll:altpll_component|_clk1
+Failed Paths   : 101
+
+Type           : Clock Hold: 'clk'
+Slack          : -9.753 ns
+Required Time  : 40.00 MHz ( period = 25.000 ns )
+Actual Time    : N/A
+From           : convert_encoder:inst46|data_out[15]
+To             : SB-All-EthernetSPI:inst4|SB-ethernet:inst|spi_master_v2:inst1|tempdata[12]
+From Clock     : pll0:inst3|altpll:altpll_component|_clk1
+To Clock       : clk
+Failed Paths   : 45
+
+Type           : Clock Hold: 'pll0:inst3|altpll:altpll_component|_clk0'
+Slack          : -2.811 ns
+Required Time  : 20.00 MHz ( period = 50.000 ns )
+Actual Time    : N/A
+From           : freq_generator:inst|phase[4]
+To             : SVM_2_level:inst1|define_vectors_time:inst6|phase_buff[4]
+From Clock     : pll0:inst3|altpll:altpll_component|_clk0
+To Clock       : pll0:inst3|altpll:altpll_component|_clk0
+Failed Paths   : 222
+
+Type           : Clock Hold: 'pll0:inst3|altpll:altpll_component|_clk1'
+Slack          : 0.499 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : error:inst16|flag
+To             : error:inst16|flag
+From Clock     : pll0:inst3|altpll:altpll_component|_clk1
+To Clock       : pll0:inst3|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 12772
+
+--------------------------------------------------------------------------------------
+

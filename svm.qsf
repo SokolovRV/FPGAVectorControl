@@ -1,0 +1,205 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Full Version
+# Date created = 13:30:18  October 20, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		svm_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C20Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY svm
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:30:18  OCTOBER 20, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TIMING_ANALYSIS_TOOL "PrimeTime (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "10 us" -section_id eda_timing_analysis
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_timing_analysis
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name SEARCH_PATH ./
+set_global_assignment -name SEARCH_PATH "nco-library/"
+set_global_assignment -name SEARCH_PATH "fft-library/"
+set_global_assignment -name DEVICE_FILTER_PACKAGE PQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 240
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name SEED 1
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name FMAX_REQUIREMENT "10 MHz"
+set_global_assignment -name ENABLE_CLOCK_LATENCY ON
+set_global_assignment -name FMAX_REQUIREMENT "40 MHz" -section_id clk
+set_instance_assignment -name CLOCK_SETTINGS clk -to clk
+set_global_assignment -name DUTY_CYCLE 10 -section_id new_cycle
+set_instance_assignment -name CLOCK_SETTINGS new_cycle -to new_cycle
+set_global_assignment -name FMAX_REQUIREMENT "5 kHz" -section_id new_cycle
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name FMAX_REQUIREMENT "1 kHz" -section_id clk3
+set_instance_assignment -name CLOCK_SETTINGS clk3 -to clk3
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_31 -to clk
+set_location_assignment PIN_21 -to mod_bus_rx
+set_location_assignment PIN_18 -to mod_bus_tx
+set_location_assignment PIN_20 -to mod_bus_adm
+set_location_assignment PIN_223 -to eth_miso_1
+set_location_assignment PIN_185 -to eth_enable_1
+set_location_assignment PIN_214 -to eth_clk_1
+set_location_assignment PIN_203 -to eth_cs_1
+set_location_assignment PIN_218 -to eth_mosi_1
+set_location_assignment PIN_199 -to eth_miso_2
+set_location_assignment PIN_117 -to eth_enable_2
+set_location_assignment PIN_195 -to eth_mosi_2
+set_location_assignment PIN_192 -to eth_cs_2
+set_location_assignment PIN_189 -to eth_clk_2
+set_location_assignment PIN_84 -to U_F_1
+set_location_assignment PIN_73 -to U_F_2
+set_location_assignment PIN_128 -to U_N_1
+set_location_assignment PIN_90 -to U_N_2
+set_location_assignment PIN_125 -to U_P_1
+set_location_assignment PIN_88 -to U_P_2
+set_location_assignment PIN_80 -to V_F_1
+set_location_assignment PIN_72 -to V_F_2
+set_location_assignment PIN_126 -to V_N_1
+set_location_assignment PIN_87 -to V_N_2
+set_location_assignment PIN_96 -to V_P_1
+set_location_assignment PIN_79 -to W_F_1
+set_location_assignment PIN_70 -to W_F_2
+set_location_assignment PIN_140 -to W_N_1
+set_location_assignment PIN_135 -to W_N_2
+set_location_assignment PIN_141 -to W_P_1
+set_location_assignment PIN_136 -to W_P_2
+set_location_assignment PIN_78 -to F_0_1
+set_location_assignment PIN_68 -to F_0_2
+set_location_assignment PIN_137 -to BRAKE_1
+set_location_assignment PIN_132 -to BRAKE_2
+set_location_assignment PIN_86 -to V_P_2
+set_location_assignment PIN_127 -to U2
+set_location_assignment PIN_131 -to U1
+set_location_assignment PIN_130 -to EP1
+set_location_assignment PIN_134 -to EP2
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE ethrnet_can/detect_CMD_V5.v
+set_global_assignment -name VERILOG_FILE fpga_serial/serial_tx_ctrl_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/serial_transmitter_main_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/serial_transmitter_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/serial_rx_ctrl_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/serial_receiver_main_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/serial_receiver_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/data_mux_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/data_demux_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/crc_16_rtu_tx_32_w.v
+set_global_assignment -name VERILOG_FILE fpga_serial/crc_16_rtu_rx_32_w.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/uart_tx_state_machine.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/uart_rx_state_machine.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/slave_select.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/modbus_rtu_tx_control.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/modbus_rtu_rx_control.v
+set_global_assignment -name BDF_FILE ModbusRTUMaster_SingleSlave/Modbus_RTU_Master_v1.bdf
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/digital_fltr.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/data_mux_1.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/data_demux_1.v
+set_global_assignment -name VERILOG_FILE ModbusRTUMaster_SingleSlave/crc_16_rtu.v
+set_global_assignment -name VERILOG_FILE ethrnet_can/spi_master_v2.v
+set_global_assignment -name BDF_FILE "ethrnet_can/SB-ethernet.bdf"
+set_global_assignment -name BDF_FILE "ethrnet_can/SB-All-EthernetSPI_v1.bdf"
+set_global_assignment -name BDF_FILE "ethrnet_can/SB-All-EthernetSPI.bdf"
+set_global_assignment -name VERILOG_FILE ethrnet_can/Multichannel.v
+set_global_assignment -name VERILOG_FILE ethrnet_can/ethStart.v
+set_global_assignment -name VERILOG_FILE ethrnet_can/detect_CMD_V4.v
+set_global_assignment -name VERILOG_FILE ethrnet_can/detect_CAN_v1.v
+set_global_assignment -name VERILOG_FILE ethrnet_can/detect_CAN.v
+set_global_assignment -name VERILOG_FILE ethrnet_can/chooseCMD.v
+set_global_assignment -name VERILOG_FILE SPI_ADC.v
+set_global_assignment -name VERILOG_FILE error.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/data_processor_v5.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/forming_data_v3.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/forming_data_v4.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/manual_control_rele.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/modbus_Rx_v4.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/modbus_Rx_v5.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/modbus_Rx_v6.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/modbus_Rx_v7.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/modbus_Tx_v3.v
+set_global_assignment -name BDF_FILE sp270crc4020/SP270ModbusMasterRTU.bdf
+set_global_assignment -name VERILOG_FILE sp270crc4020/uart_rx.v
+set_global_assignment -name VERILOG_FILE sp270crc4020/uart_tx.v
+set_global_assignment -name BDF_FILE encoder_1_0/encoder_1_0.bdf
+set_global_assignment -name VERILOG_FILE encoder_1_0/calculate_speed.v
+set_global_assignment -name VERILOG_FILE encoder_1_0/Chn_filtr.v
+set_global_assignment -name VERILOG_FILE encoder_1_0/div.v
+set_global_assignment -name VERILOG_FILE pwm_triangle.v
+set_global_assignment -name BDF_FILE svm.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE svm.vwf
+set_global_assignment -name MIF_FILE sind_60_shift_left_15.mif
+set_global_assignment -name QIP_FILE sind_60_shift_left_15.qip
+set_global_assignment -name VERILOG_FILE define_vectors_time.v
+set_global_assignment -name VERILOG_FILE define_vector.v
+set_global_assignment -name VERILOG_FILE delay_clk_posedge.v
+set_global_assignment -name VERILOG_FILE dead_time.v
+set_global_assignment -name VERILOG_FILE freq_generator.v
+set_global_assignment -name BDF_FILE SVM_2_level/SVM_2_level.bdf
+set_global_assignment -name QIP_FILE prob3.qip
+set_global_assignment -name VERILOG_FILE adc.v
+set_global_assignment -name VERILOG_FILE ADC_in.v
+set_global_assignment -name SOURCE_FILE Spf1.spf
+set_global_assignment -name VERILOG_FILE Slave_spi_v1.v
+set_global_assignment -name QIP_FILE pll0.qip
+set_global_assignment -name VERILOG_FILE Master_spi_v7_10ch.v
+set_global_assignment -name VERILOG_FILE conv_16_to_1.v
+set_global_assignment -name VERILOG_FILE Chn_filtr1.v
+set_global_assignment -name VERILOG_FILE u_dev_f.v
+set_global_assignment -name VERILOG_FILE frev_div.v
+set_global_assignment -name QIP_FILE muxx.qip
+set_global_assignment -name VERILOG_FILE convert_encoder.v
+set_global_assignment -name VERILOG_FILE pwm.v
+set_global_assignment -name VERILOG_FILE TxCycleCtrl.v
+set_location_assignment PIN_52 -to serial_rx
+set_location_assignment PIN_51 -to serial_tx
+set_location_assignment PIN_49 -to mkReady
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name VERILOG_FILE WordSeparate.v
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name VERILOG_FILE SignalChangeTimeOut.v
+set_global_assignment -name VERILOG_FILE SystemCtrlModule.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

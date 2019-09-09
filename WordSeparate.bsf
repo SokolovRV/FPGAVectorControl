@@ -1,0 +1,155 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 192 320)
+	(text "WordSeparate" (rect 5 0 64 12)(font "Arial" ))
+	(text "inst" (rect 8 288 20 300)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" ))
+		(text "clk" (rect 21 27 31 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "WordIn[15..0]" (rect 0 0 54 12)(font "Arial" ))
+		(text "WordIn[15..0]" (rect 21 43 75 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 176 32)
+		(output)
+		(text "bit0" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit0" (rect 143 27 155 39)(font "Arial" ))
+		(line (pt 176 32)(pt 160 32)(line_width 1))
+	)
+	(port
+		(pt 176 48)
+		(output)
+		(text "bit1" (rect 0 0 11 12)(font "Arial" ))
+		(text "bit1" (rect 144 43 155 55)(font "Arial" ))
+		(line (pt 176 48)(pt 160 48)(line_width 1))
+	)
+	(port
+		(pt 176 64)
+		(output)
+		(text "bit2" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit2" (rect 143 59 155 71)(font "Arial" ))
+		(line (pt 176 64)(pt 160 64)(line_width 1))
+	)
+	(port
+		(pt 176 80)
+		(output)
+		(text "bit3" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit3" (rect 143 75 155 87)(font "Arial" ))
+		(line (pt 176 80)(pt 160 80)(line_width 1))
+	)
+	(port
+		(pt 176 96)
+		(output)
+		(text "bit4" (rect 0 0 14 12)(font "Arial" ))
+		(text "bit4" (rect 141 91 155 103)(font "Arial" ))
+		(line (pt 176 96)(pt 160 96)(line_width 1))
+	)
+	(port
+		(pt 176 112)
+		(output)
+		(text "bit5" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit5" (rect 143 107 155 119)(font "Arial" ))
+		(line (pt 176 112)(pt 160 112)(line_width 1))
+	)
+	(port
+		(pt 176 128)
+		(output)
+		(text "bit6" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit6" (rect 143 123 155 135)(font "Arial" ))
+		(line (pt 176 128)(pt 160 128)(line_width 1))
+	)
+	(port
+		(pt 176 144)
+		(output)
+		(text "bit7" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit7" (rect 143 139 155 151)(font "Arial" ))
+		(line (pt 176 144)(pt 160 144)(line_width 1))
+	)
+	(port
+		(pt 176 160)
+		(output)
+		(text "bit8" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit8" (rect 143 155 155 167)(font "Arial" ))
+		(line (pt 176 160)(pt 160 160)(line_width 1))
+	)
+	(port
+		(pt 176 176)
+		(output)
+		(text "bit9" (rect 0 0 12 12)(font "Arial" ))
+		(text "bit9" (rect 143 171 155 183)(font "Arial" ))
+		(line (pt 176 176)(pt 160 176)(line_width 1))
+	)
+	(port
+		(pt 176 192)
+		(output)
+		(text "bit10" (rect 0 0 16 12)(font "Arial" ))
+		(text "bit10" (rect 139 187 155 199)(font "Arial" ))
+		(line (pt 176 192)(pt 160 192)(line_width 1))
+	)
+	(port
+		(pt 176 208)
+		(output)
+		(text "bit11" (rect 0 0 15 12)(font "Arial" ))
+		(text "bit11" (rect 140 203 155 215)(font "Arial" ))
+		(line (pt 176 208)(pt 160 208)(line_width 1))
+	)
+	(port
+		(pt 176 224)
+		(output)
+		(text "bit12" (rect 0 0 16 12)(font "Arial" ))
+		(text "bit12" (rect 139 219 155 231)(font "Arial" ))
+		(line (pt 176 224)(pt 160 224)(line_width 1))
+	)
+	(port
+		(pt 176 240)
+		(output)
+		(text "bit13" (rect 0 0 16 12)(font "Arial" ))
+		(text "bit13" (rect 139 235 155 247)(font "Arial" ))
+		(line (pt 176 240)(pt 160 240)(line_width 1))
+	)
+	(port
+		(pt 176 256)
+		(output)
+		(text "bit14" (rect 0 0 17 12)(font "Arial" ))
+		(text "bit14" (rect 138 251 155 263)(font "Arial" ))
+		(line (pt 176 256)(pt 160 256)(line_width 1))
+	)
+	(port
+		(pt 176 272)
+		(output)
+		(text "bit15" (rect 0 0 16 12)(font "Arial" ))
+		(text "bit15" (rect 139 267 155 279)(font "Arial" ))
+		(line (pt 176 272)(pt 160 272)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 160 288)(line_width 1))
+	)
+)

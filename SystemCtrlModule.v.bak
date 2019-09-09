@@ -1,0 +1,3 @@
+module SystemCtrlModule (clk, mainEnable, algorithmRun, mkTimeOut, panelTimeOut, encoder, ADC1, ADC2, ADC3, driverErr, reset,
+										algorithmEnable, SVMEnable, ADCErr, IGBTErr);
+

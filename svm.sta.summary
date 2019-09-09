@@ -1,0 +1,365 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'SB-All-EthernetSPI:inst13|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 5.391
+TNS   : 0.000
+
+Type  : Slow Model Setup 'SB-All-EthernetSPI:inst13|inst69'
+Slack : 5.879
+TNS   : 0.000
+
+Type  : Slow Model Setup 'SB-All-EthernetSPI_v1:inst6|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 6.059
+TNS   : 0.000
+
+Type  : Slow Model Setup 'SB-All-EthernetSPI_v1:inst6|inst69'
+Slack : 7.670
+TNS   : 0.000
+
+Type  : Slow Model Setup 'inst49'
+Slack : 10.949
+TNS   : 0.000
+
+Type  : Slow Model Setup 'clk'
+Slack : 11.092
+TNS   : 0.000
+
+Type  : Slow Model Setup 'inst41'
+Slack : 13.303
+TNS   : 0.000
+
+Type  : Slow Model Setup 'serial_receiver_main_32_w:inst2|SYNTHESIZED_WIRE_2'
+Slack : 13.308
+TNS   : 0.000
+
+Type  : Slow Model Setup 'serial_transmitter_main_32_w:inst3|SYNTHESIZED_WIRE_3'
+Slack : 13.308
+TNS   : 0.000
+
+Type  : Slow Model Setup 'inst42'
+Slack : 13.439
+TNS   : 0.000
+
+Type  : Slow Model Setup 'serial_transmitter_main_32_w:inst3|clk_dev_4'
+Slack : 14.725
+TNS   : 0.000
+
+Type  : Slow Model Setup 'inst47'
+Slack : 14.768
+TNS   : 0.000
+
+Type  : Slow Model Setup 'SVM_2_level:inst1|pwm_triangle:inst|data_capture'
+Slack : 17.268
+TNS   : 0.000
+
+Type  : Slow Model Setup 'serial_receiver_main_32_w:inst2|clk_dev_4'
+Slack : 17.717
+TNS   : 0.000
+
+Type  : Slow Model Setup 'SVM_2_level:inst1|pwm_triangle:inst|new_cycle'
+Slack : 19.129
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk'
+Slack : -2.972
+TNS   : -8.912
+
+Type  : Slow Model Hold 'inst49'
+Slack : -2.566
+TNS   : -2.776
+
+Type  : Slow Model Hold 'inst47'
+Slack : -2.534
+TNS   : -2.534
+
+Type  : Slow Model Hold 'inst42'
+Slack : -2.309
+TNS   : -4.615
+
+Type  : Slow Model Hold 'serial_receiver_main_32_w:inst2|SYNTHESIZED_WIRE_2'
+Slack : -1.074
+TNS   : -1.074
+
+Type  : Slow Model Hold 'serial_transmitter_main_32_w:inst3|SYNTHESIZED_WIRE_3'
+Slack : -1.074
+TNS   : -1.074
+
+Type  : Slow Model Hold 'inst41'
+Slack : -1.069
+TNS   : -1.069
+
+Type  : Slow Model Hold 'SB-All-EthernetSPI:inst13|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'SB-All-EthernetSPI_v1:inst6|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'SB-All-EthernetSPI_v1:inst6|inst69'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'serial_receiver_main_32_w:inst2|clk_dev_4'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'serial_transmitter_main_32_w:inst3|clk_dev_4'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'SVM_2_level:inst1|pwm_triangle:inst|data_capture'
+Slack : 0.570
+TNS   : 0.000
+
+Type  : Slow Model Hold 'SVM_2_level:inst1|pwm_triangle:inst|new_cycle'
+Slack : 0.760
+TNS   : 0.000
+
+Type  : Slow Model Hold 'SB-All-EthernetSPI:inst13|inst69'
+Slack : 2.393
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'inst47'
+Slack : 9.433
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'serial_receiver_main_32_w:inst2|clk_dev_4'
+Slack : 9.433
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'inst49'
+Slack : 9.723
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SB-All-EthernetSPI:inst13|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SB-All-EthernetSPI:inst13|inst69'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SB-All-EthernetSPI_v1:inst6|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SB-All-EthernetSPI_v1:inst6|inst69'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SVM_2_level:inst1|pwm_triangle:inst|data_capture'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SVM_2_level:inst1|pwm_triangle:inst|new_cycle'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'inst41'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'inst42'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'serial_receiver_main_32_w:inst2|SYNTHESIZED_WIRE_2'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'serial_transmitter_main_32_w:inst3|SYNTHESIZED_WIRE_3'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'serial_transmitter_main_32_w:inst3|clk_dev_4'
+Slack : 11.258
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : 23.758
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SB-All-EthernetSPI:inst13|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 10.253
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SB-All-EthernetSPI:inst13|inst69'
+Slack : 10.326
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SB-All-EthernetSPI_v1:inst6|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 10.427
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SB-All-EthernetSPI_v1:inst6|inst69'
+Slack : 10.939
+TNS   : 0.000
+
+Type  : Fast Model Setup 'inst49'
+Slack : 12.675
+TNS   : 0.000
+
+Type  : Fast Model Setup 'inst41'
+Slack : 12.841
+TNS   : 0.000
+
+Type  : Fast Model Setup 'serial_receiver_main_32_w:inst2|SYNTHESIZED_WIRE_2'
+Slack : 12.845
+TNS   : 0.000
+
+Type  : Fast Model Setup 'serial_transmitter_main_32_w:inst3|SYNTHESIZED_WIRE_3'
+Slack : 12.845
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk'
+Slack : 12.898
+TNS   : 0.000
+
+Type  : Fast Model Setup 'inst42'
+Slack : 13.762
+TNS   : 0.000
+
+Type  : Fast Model Setup 'inst47'
+Slack : 13.812
+TNS   : 0.000
+
+Type  : Fast Model Setup 'serial_transmitter_main_32_w:inst3|clk_dev_4'
+Slack : 21.814
+TNS   : 0.000
+
+Type  : Fast Model Setup 'serial_receiver_main_32_w:inst2|clk_dev_4'
+Slack : 21.877
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SVM_2_level:inst1|pwm_triangle:inst|data_capture'
+Slack : 22.496
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SVM_2_level:inst1|pwm_triangle:inst|new_cycle'
+Slack : 23.020
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.787
+TNS   : -6.948
+
+Type  : Fast Model Hold 'inst49'
+Slack : -1.450
+TNS   : -2.738
+
+Type  : Fast Model Hold 'inst47'
+Slack : -1.432
+TNS   : -1.432
+
+Type  : Fast Model Hold 'inst42'
+Slack : -1.386
+TNS   : -2.768
+
+Type  : Fast Model Hold 'serial_receiver_main_32_w:inst2|SYNTHESIZED_WIRE_2'
+Slack : -0.465
+TNS   : -0.465
+
+Type  : Fast Model Hold 'serial_transmitter_main_32_w:inst3|SYNTHESIZED_WIRE_3'
+Slack : -0.465
+TNS   : -0.465
+
+Type  : Fast Model Hold 'inst41'
+Slack : -0.461
+TNS   : -0.461
+
+Type  : Fast Model Hold 'SB-All-EthernetSPI:inst13|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'SB-All-EthernetSPI_v1:inst6|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'SB-All-EthernetSPI_v1:inst6|inst69'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'serial_receiver_main_32_w:inst2|clk_dev_4'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'serial_transmitter_main_32_w:inst3|clk_dev_4'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'SVM_2_level:inst1|pwm_triangle:inst|data_capture'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Fast Model Hold 'SVM_2_level:inst1|pwm_triangle:inst|new_cycle'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Fast Model Hold 'SB-All-EthernetSPI:inst13|inst69'
+Slack : 0.710
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'inst47'
+Slack : 10.373
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'serial_receiver_main_32_w:inst2|clk_dev_4'
+Slack : 10.373
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'inst49'
+Slack : 10.481
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SB-All-EthernetSPI:inst13|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SB-All-EthernetSPI:inst13|inst69'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SB-All-EthernetSPI_v1:inst6|SB-ethernet:inst|spi_master_v2:inst1|cs'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SB-All-EthernetSPI_v1:inst6|inst69'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SVM_2_level:inst1|pwm_triangle:inst|data_capture'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SVM_2_level:inst1|pwm_triangle:inst|new_cycle'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'inst41'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'inst42'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'serial_receiver_main_32_w:inst2|SYNTHESIZED_WIRE_2'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'serial_transmitter_main_32_w:inst3|SYNTHESIZED_WIRE_3'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'serial_transmitter_main_32_w:inst3|clk_dev_4'
+Slack : 11.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : 24.000
+TNS   : 0.000
+
+------------------------------------------------------------

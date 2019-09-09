@@ -1,0 +1,5 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,SVM_2_level:inst1|define_vectors_time:inst6|lpm_mult:Mult0|mult_o8t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,SVM_2_level:inst1|define_vectors_time:inst6|lpm_mult:Mult1|mult_o8t:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,SVM_2_level:inst1|define_vectors_time:inst6|lpm_mult:Mult0|mult_o8t:auto_generated|mac_mult1,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,SVM_2_level:inst1|define_vectors_time:inst6|lpm_mult:Mult1|mult_o8t:auto_generated|mac_mult1,

@@ -1,0 +1,26 @@
+########################################################################
+#
+#    FILE: Collection definition file
+#  VENDOR: Altera
+# PROGRAM: Quartus II
+# VERSION: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+#    DATE: Tue Aug 27 14:40:01 2019
+#
+########################################################################
+
+
+set col(_col51) { pin { {2504 REGOUT -1} } }
+set col(_col52) { pin { {2505 REGOUT -1} } }
+set col(_col53) { pin { {2493 REGOUT -1} } }
+set col(_col54) { pin { {2494 REGOUT -1} } }
+set col(_col43) { port { 78 } }
+set col(_col55) { pin { {598 REGOUT -1} } }
+set col(_col56) { pin { {1607 REGOUT -1} } }
+set col(_col57) { pin { {1610 REGOUT -1} } }
+set col(_col58) { pin { {599 REGOUT -1} } }
+set col(_col59) { pin { {308 REGOUT -1} } }
+set col(_col60) { pin { {309 REGOUT -1} } }
+set col(_col61) { pin { {1001 REGOUT -1} } }
+set col(_col62) { pin { {2649 REGOUT -1} } }
+set col(_col63) { pin { {829 REGOUT -1} } }
+set col(_col64) { pin { {1025 REGOUT -1} } }
